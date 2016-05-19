@@ -1,0 +1,123 @@
+/*Navbar Color*/
+.love>.navbar {
+    background: white;
+}
+.love .logo {
+    background: #ef6c00;
+}
+.main-sidebar, .left-side {
+    background: black;
+}
+.sidebar-form, .sidebar-menu>li.header {
+    background: #0E0E0E;
+}
+/*Sidebar Text Color*/
+.sidebar-text {
+    color: white;
+}
+.sidebar-text-mini {
+    color: white;
+}
+.a-text{
+    color: white;
+}
+.a-text:hover, a:active, a:focus {
+    color: #ef6c00;
+}
+/*Navbar Icon*/
+.main-header .sidebar-toggle:before {
+    color: #ef6c00;
+}
+/*Glow Color*/
+.glow{
+     text-shadow: 0 0 5px  #ef6c00;
+}
+.sidebar-menu .treeview-menu>li>a {
+    background: #ef6c00;
+    box-shadow: 0 0 5px  #ef6c00;
+}
+
+
+/*New CSS*/
+#mainnav-shortcut {
+  max-height: 50px;
+  overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+  #mainnav-shortcut {
+    /*-webkit-transition: all .15s;*/
+    /*transition: all .15s;*/
+  }
+
+}
+
+.sidebar-collapse #mainnav-shortcut li {
+  -webkit-transition: all .20s ease .10s;
+  transition: all .20s ease .10s;
+}
+
+@media (min-width: 1200px) {
+  #mainnav-shortcut .shortcut-grid i {
+    -webkit-transition: font-size .17s linear .15s;
+    transition: font-size .17s linear .15s;
+  }
+}
+
+#mainnav-shortcut .shortcut-grid {
+  display: table;
+  border: 0;
+  width: 100%;
+  height: auto;
+  color: #fff;
+}
+
+#mainnav-shortcut .shortcut-grid > i {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+#mainnav-shortcut ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#mainnav-shortcut li {
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.sidebar-collapse #mainnav-shortcut > ul > li {
+  width: 100%;
+  padding-bottom: 15px;
+
+}
+
+.sidebar-collapse #mainnav-shortcut {
+  max-height: 120px;
+  padding-top: 10px;
+}
+
+.sidebar-collapse #mainnav-shortcut .shortcut-grid {
+  padding-bottom: 15px;
+}
+
+.wrapper, .main-sidebar, .left-side {
+    background-color: #000000;
+}
+
+.main-header>.navbar {
+    background: white;
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu>li>a {
+    margin-left: 4px;
+}
